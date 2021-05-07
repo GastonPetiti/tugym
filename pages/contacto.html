@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <header>
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(89, 0, 255) ;">
             <div class="container-fluid">
               <a class="navbar-brand" href="/index.html">Tu Gym</a>
@@ -30,10 +29,39 @@
               </div>
             </div>
           </nav>
-    <h2>
+        
+    <h1>
         Contactate con nosotros y contanos que es lo que necesitas
-    </h2>
-    <main class="main_contact">
+    </h1>
+    <main>
+        <div class="container">
+            <form action="">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label for="Nombre" class="form-label">Nombre/s</label>
+                        <input type="text" id="Nombre" class="form-control" placeholder="Juan">
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="Apellido" class="form-label">Apellido/s</label>
+                        <input type="text" id="Apellido" class="form-control" placeholder="Pepito">
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <label for="exampleFormControlInput1" class="form-label">Ingresa tu mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@mail.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Deja tu comentario aquí</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <div class="btn-form text-center">
+                    <button type="button" class="btn btn-outline-light" style="background-color:#e9183b ;">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!--<main class="main_contact">
         <form action="form">
         <div class="form_box">
             <div class="form_contacto">
@@ -44,13 +72,12 @@
             <label for="textarea">Deja tu Mensaje:</label>
             <textarea name="comentario" id="textArea" cols="25" rows="15" placeholder="Deja tu comentario aquí"></textarea>
                 <div class="btn-form">
-                    <input type="submit" name="Enviar">
-                    <input type="reset" value="Borrar">
+                    <button type="button" class="btn btn-outline-light " style="background-color:#e9183b ;">Enviar</button>
                 </div>
             </div>
         </div>
     </form>
-    </main>
+    </main>-->
     <footer>
         <div class="cajas_footer">
             <h3>Secciones</h3>
@@ -81,7 +108,7 @@
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Email</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                <button type="button" class="btn btn-outline-light " style="background-color:#e9183b ;">Suscribirse</button>
+                <button id="btnFooter" id="btnForm" type="button" class="btn btn-outline-light " style="background-color:#e9183b ;">Suscribirse</button>
               </div>
         </div>
         
