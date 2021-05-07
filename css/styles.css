@@ -4,15 +4,24 @@
   box-sizing: border-box;
   margin-right: 0; }
 
+body {
+  background-color: black; }
+
+main {
+  border-radius: 6px;
+  margin: 10px;
+  color: rgba(255, 255, 255, 0.884); }
+
 h1 {
-  text-align: center; }
+  text-align: center;
+  color: white; }
 
 ul li {
   list-style: none; }
 
 .items-products {
   display: flex;
-  justify-content: start;
+  justify-content: space-around;
   flex-wrap: wrap; }
 
 .card {
@@ -28,52 +37,6 @@ ul li {
   margin: 20px; }
   .slide img {
     height: 95vh; }
-
-.main_contact {
-  margin: 15px; }
-
-.form_contacto {
-  width: 65%;
-  margin-left: 20%;
-  border: 1px solid #0330c7;
-  background-color: #5900ff;
-  border-radius: 10px; }
-
-.name {
-  width: 50%;
-  display: block;
-  margin-left: 25%;
-  margin-top: 10px;
-  margin-bottom: 14px;
-  border: 1px solid #0330c7;
-  border-radius: 3px;
-  color: black; }
-
-.mail {
-  width: 50%;
-  display: block;
-  margin-left: 25%;
-  margin-top: 14px;
-  margin-bottom: 10px;
-  border: 1px solid #0330c7;
-  border-radius: 3px;
-  color: black; }
-
-#textArea {
-  margin-left: 35%;
-  display: block;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  border: 1px solid #0330c7;
-  border-radius: 3px;
-  color: black; }
-
-.btn-form {
-  margin-left: 42%; }
-
-.btn-form input {
-  background-color: #e9183b;
-  border-radius: 5px; }
 
 label {
   text-align: center;
@@ -99,8 +62,8 @@ footer {
     text-decoration: none;
     color: #fffa; }
 
-h2 {
-  text-align: center; }
+.btn {
+  margin-bottom: 5px; }
 
 .card {
   width: 28%;
@@ -135,6 +98,12 @@ h2 {
     text-decoration: none;
     color: #0330c7; }
 
-@media (max-width: 812px) {
+#btnFooter {
+  margin-top: 10px; }
+
+@media (max-width: 825px) {
   .copy {
-    font-size: 11px; } }
+    font-size: 11px;
+    height: 35px; }
+  .slide img {
+    height: 50vh; } }
