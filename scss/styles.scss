@@ -4,15 +4,24 @@
     box-sizing: border-box;
     margin-right: 0;
 }
+body{
+    background-color: rgb(0, 0, 0);
+}
+main{
+    border-radius: 6px;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.884);
+}
 h1{
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 ul li{
     list-style: none;
 }
 .items-products{
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .card{
@@ -31,53 +40,6 @@ ul li{
     }
 }
 
-.main_contact{
-    margin: 15px;
-}
-.form_contacto{
-    width: 65%;
-    margin-left: 20%;
-    border: 1px solid #0330c7;
-    background-color: rgb(89, 0, 255) ;
-    border-radius: 10px;
-}
-
-.name{
-    width: 50%;
-    display: block;
-    margin-left: 25%;
-    margin-top: 10px;
-    margin-bottom: 14px;
-    border:1px solid #0330c7;
-    border-radius: 3px;
-    color:black
-}
-.mail{
-    width: 50%;
-    display: block;
-    margin-left: 25%;
-    margin-top: 14px;
-    margin-bottom: 10px;
-    border:1px solid #0330c7;
-    border-radius: 3px;
-    color:black
-}
-#textArea{
-    margin-left: 35%;
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    border:1px solid #0330c7;
-    border-radius: 3px;
-    color:black
-}
-.btn-form{
-    margin-left: 42%;
-}
-.btn-form input{
-    background-color: #e9183b;
-    border-radius: 5px;
-}
 label{
     text-align: center;
     margin-left: 25%;
@@ -105,8 +67,8 @@ footer{
     }
 }
 
-h2{
-    text-align: center;
+.btn{
+    margin-bottom: 5px;
 }
 .card{
     width: 28%;
@@ -143,8 +105,17 @@ h2{
         color: #0330c7;
     }
 }
+#btnFooter{
+    margin-top: 10px;
+}
 @media(max-width:812px){
     .copy{
         font-size: 11px;
+    }
+    #textArea{
+       margin-left: 15px;
+    }
+    #btnForm{
+        margin-right: 35%;
     }
 }
